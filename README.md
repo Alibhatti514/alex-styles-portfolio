@@ -1,0 +1,31 @@
+# Alex Styles — Creative Portfolio
+
+A responsive, static HTML/CSS/JavaScript portfolio concept built for the three-stage front-end assignment.
+
+## Features
+- About, Portfolio, and Contact sections
+- Fluid grid/flex layouts with explicit mobile (≤768px), tablet (≤1024px), and desktop (≥1025px) breakpoints
+- Hover transitions, entrance animation, keyboard-accessible project detail modals, navigation tooltips, and mobile navigation
+- Reduced-motion support, visible keyboard focus, form validation, and semantic HTML
+- No build process, dependencies, or server required. Fonts load from Google Fonts with local fallbacks.
+
+## Local preview
+Open `index.html` directly in a browser, or run `python3 -m http.server 8000` from this folder and open `http://localhost:8000`.
+
+## Automated checks
+Run `python3 tests/check_project.py` from the project root. For JavaScript syntax, run `node --check js/app.js` if Node.js is installed.
+
+## Contact form limitation
+The form validates fields and opens a prefilled email in the visitor's email client. It does **not** send email directly or store submissions. `hello@alexstyles.example` is a **placeholder** and must be replaced with a real address before production use.
+
+## Project assets
+The portfolio's artwork is created with CSS shapes and typography. All displayed projects are fictional design concepts.
+
+## Deployment
+1. Create a public GitHub repository named `alex-styles-portfolio`.
+2. Upload all files, preserving the folder structure, or push using Git.
+3. In repository **Settings → Pages**, choose **Deploy from a branch**, branch **main**, folder **/(root)**, then **Save**.
+4. After publishing, open `https://YOUR_USERNAME.github.io/alex-styles-portfolio/` and check the page and project dialogs.
+
+## AI assistance disclosure
+The initial implementation and documentation were generated with ChatGPT. The assignment specifically asks for Microsoft Copilot usage; do not claim Copilot was used unless you actually use it. To meet that criterion, open this project in VS Code with Copilot, ask it to review/refine the CSS, breakpoints, and UI interactions, then test and record the changes it suggested. See `COPILOT_WORKFLOW.md`.
